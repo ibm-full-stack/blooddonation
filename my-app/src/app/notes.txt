@@ -44,6 +44,6 @@ save(data){
 user;
 pass;
 save(){
-	this.user=this.ngForm.controls['user'].value;
-	this.pass=this.ngForm.controls['pass'].value;
+	this.name=this.ngForm.controls['name'].value;
+	this.email=this.ngForm.controls['email'].value;
 }
