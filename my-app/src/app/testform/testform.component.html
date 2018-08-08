@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app>
+ <head>
+  <title>ng Hide Entire DIV</title>
+  <script src="angular.js"></script>
+ </head>
+ <body>
+  <form name="registerForm">
+   <input type="text" ng-model="username" placeholder="First Name"/><p>
+   <input type="text" ng-model="username" placeholder="Last Name"/><p>
+   <input type="radio" ng-model="gender" value="Male" checked/>Male   
+   <input type="radio" ng-model="gender" value="Female"/>Female<p>
+   <input type="text" ng-model="currentAddress" placeholder="Current Address"/><p>
+   <input type="checkbox" ng-model="account.sameAsAbove" /><span>Same as Above</span><p>
+   <div ng-hide="account.sameAsAbove">
+    <input type="text" ng-model="permanentAddress" placeholder="Permanent Address"/><p>
+   </div>
+   <button ng-click="register">Register</button>
+   <button ng-click="clear">Clear</button>
+  </form>
+ </body>
+</html>

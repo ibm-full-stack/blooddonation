@@ -1,0 +1,49 @@
+//index.Component.ts
+export class IndexComponent implement onInit{
+	
+	constructor(private route:ActivateRouter){}
+
+	ngOnInit(){
+	console.log('Param Received '+this.route.snapshort.params.id);
+
+	this.subscribe=this.route.param.subscribe(values=>{
+
+});
+
+}
+ngOnDestory(){
+	this.subscribe.unsubscribe();
+}
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//app.module.ts
+],
+import:[
+BrowserModule,
+RouterModule.forRoot(
+[
+{    path: 'home',
+component:IndexComponent
+},
+	path: 'index/:id',
+	component: IndexComponent
+}
+]}
+providers:[],
+bootstrap:[AppComponent]
+})
+export class AppModule{}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
++++++++++++++
+save(data){
+	alert('User Name' +data.username+"--Password"+data.pass);
+}
++++++++++++++++++++++++++
+user;
+pass;
+save(){
+	this.user=this.ngForm.controls['user'].value;
+	this.pass=this.ngForm.controls['pass'].value;
+}

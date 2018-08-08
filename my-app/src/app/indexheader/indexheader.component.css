@@ -1,0 +1,350 @@
+
+.top-bar {
+    background: #FE3C47;
+    line-height: 42px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.main-header .top-bar-social {
+    float: none;
+    margin-right: 0px;
+   
+  }
+  .top-bar p {
+    margin-top: 10px;
+    color: #FFFFFF;
+  }
+  .top-bar-social {
+   
+   
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 5px;
+    border: 0px solid #FFF;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+.top-bar-social a i.fa {
+    width: 24px;
+    height: 24px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    text-align: center;
+    color: #666;
+    background: #fafafa;
+    line-height: 24px;
+    font-size: 14px;
+    position: relative;
+    top: -2px;
+}
+.top-bar i {
+    color: #FFFFFF;
+    margin-right: 5px;
+    display: inline-block;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+  p {
+    font: 18px/28px 'Source Sans Pro', sans-serif;
+    color: #f1efef;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 200px;
+    letter-spacing: 0.01em;
+    margin: 0 0 12px;
+    padding: 0;
+  }
+
+ .menuItem{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 23px;
+     font-weight: 500;
+     color: rgb(8, 2, 2);
+ }
+ .nav-item{
+     margin-right: 6px;
+ }
+ .navbar{
+     background-color: #8d0505;
+ }
+ .section-banner1 {
+  background-image: url("header-bg.jpg");
+  padding: 250px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+.section-banner1 .banner-content1 h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  margin: 12px 0 0;
+  color: rgb(168, 11, 11);
+  text-transform: uppercase;
+}
+
+ .section-banner {
+    background-image: url("bgimage.jpg");
+    padding: 250px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .section-banner .banner-content {
+    width: 100%;
+  }
+  .section-banner .banner-content h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    margin: 12px 0 0;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+  .section-banner .banner-content h2 span {
+    padding: 0 3px;
+    font-weight: 400;
+  }
+  .section-banner .banner-content h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    margin: 16px 0 0;
+    color: #FFFFFF;
+  }
+  .section-banner .banner-content a.btn-slider {
+    font-size: 16px;
+    margin-top: 24px;
+    background: #FE3C47;
+    border: 2px solid #FE3C47;
+    color: #FFFFFF;
+    line-height: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-weight: 500;
+    text-align: center;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+  }
+  .section-banner .banner-content a.btn-slider:hover {
+    background: #fe0917;
+    border: 2px solid #FE3C47;
+    color: #FFFFFF;
+  }
+
+  .about-footer {
+    border-bottom: 1px solid #2C2C2C;
+    margin-bottom: 60px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  /* Tab Portrait Size to Tab Landscape Size (devices and browsers) */
+@media only screen and (min-width: 380px) and (max-width: 480px) {
+    .xs-margin {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+  @media only screen and (min-width: 480px) and (max-width: 600px) {
+    .xs-margin {
+      margin-left: 70px;
+      margin-right: 70px;
+    }
+  }
+  @media only screen and (min-width: 600px) and (max-width: 767px) {
+    .xs-margin {
+      margin-left: 120px;
+      margin-right: 120px;
+    }
+  }
+
+  /*
+  login page css
+  */
+  .section-appointment {
+    position: relative;
+    overflow: hidden;
+
+  }
+  .appointment-img {
+    height: 450px;
+    bottom: 0;
+    left: 0;
+   
+  }
+  .appointment-img img {
+    display: table;
+    position: relative;
+  }
+  .appointment-form-wrapper {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background: #eaedf1;
+    padding: 0px 5px 28px;
+  }
+  .appointment-form-wrapper h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #FE3C47;
+    padding: 30px;
+    letter-spacing: 0.03em;
+    margin: 0 -5px 50px;
+    text-transform: uppercase;
+    position: relative;
+  }
+  .appoinment-form {
+    padding: 0 12px;
+  }
+  .appoinment-form .form-control {
+    font-size: 16px;
+  }
+  .appoinment-form .form-group {
+    margin-bottom: 0;
+  }
+  .appoinment-form input[type=text],
+  .appoinment-form input[type=email],
+  .appoinment-form input[type=url],
+  .appoinment-form input[type=password] {
+    border: 0px;
+    border: 1px solid #EEE;
+    line-height: 42px;
+    height: 42px;
+    margin-bottom: 24px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s 0.2s ease-out;
+    -moz-transition: 0.3s 0.2s ease-out;
+    -o-transition: 0.3s 0.2s ease-out;
+    transition: 0.3s 0.2s ease-out;
+  }
+  .appoinment-form input[type=text]:focus,
+  .appoinment-form input[type=email]:focus,
+  .appoinment-form input[type=url]:focus,
+  .appoinment-form input[type=password]:focus {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid #EEE;
+  }
+  .appoinment-form textarea {
+    border: 0px;
+    border: 1px solid #EEE;
+    padding-left: 2px;
+    margin-bottom: 24px;
+    padding: 6px 12px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: 0.3s 0.2s ease-out;
+    -moz-transition: 0.3s 0.2s ease-out;
+    -o-transition: 0.3s 0.2s ease-out;
+    transition: 0.3s 0.2s ease-out;
+  }
+  .appoinment-form textarea:focus {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid #EEE;
+  }
+  .appoinment-form .select-style {
+    position: relative;
+  }
+  .appoinment-form .select-style select.form-control {
+    border: 1px solid #EEE;
+    -moz-appearance: none;
+    position: relative;
+    background-image: url("down_arrow.png");
+    background-position: 100% 4px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    box-shadow: none;
+    color: #999;
+    padding: 6px 12px;
+    height: 42px;
+    line-height: 42px;
+    margin-bottom: 24px;
+  }
+  .appoinment-form .select-style select.form-control:focus {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid #EEE;
+    box-shadow: none;
+  }
+  .appoinment-form .btn-submit {
+    background: #FE3C47;
+    border: 2px solid #FE3C47;
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: 400;
+    padding: 5px 10px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.3s ease-out 0s;
+  }
+  .appoinment-form .btn-submit:hover {
+    background-color: #fe0917;
+  }
+
+  
+
+  

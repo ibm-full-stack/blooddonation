@@ -1,0 +1,36 @@
+<p>
+  my-component works!
+  Welcome  to {{namecomp}}!
+</p>
+<form #heroForm="ngForm">
+  <div class="form-group">
+    <label for="Name">Enter Name</label>
+    <input type="text" class="form-control" id="name"  required
+   [(ngModel)]="model.name" name="name">
+  </div>
+  <div class="form-group">
+    <label for="age">Enter age</label>
+    <input type="number" class="form-control" id="age"  required
+   [(ngModel)]="model.age" name="age">
+  </div>
+ 
+ 
+  <button type="submit" class="btn btn-primary" (click)="createCustomer()">Submit</button>
+</form>
+<div>
+	<ol>
+		<li appHighlight *ngFor='let cust of custArray'>
+			{{cust.name | uppercase}}<b>||</b>{{cust.age | testpipe:4}}
+		</li>
+	</ol>
+</div>
+
+
+<button class="btn btn-success" (click)="onTestGet()">Get Request</button>
+<p>Out of JSON :{{getData}}</p>
+
+<button class="btn btn-danger" (click)="onTestPost()">Post Request</button>
+<p>Out of JSON :{{postData}}</p>
+
+
+
